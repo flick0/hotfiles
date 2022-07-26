@@ -1,7 +1,7 @@
 #! /bin/sh
 
 sleep 10 && $HOME/.config/bspwm/scripts/bspfloat floating 5 &> $HOME/.log.bspfloat.txt &
-/home/hp/.config/polybar/launch.sh &
+$HOME/.config/polybar/launch.sh &
 pgrep -x sxhkd > /dev/null || sxhkd &
 eww daemon &
 /usr/lib/mate-polkit/polkit-mate-authentication-agent-1 &
@@ -37,3 +37,5 @@ bspc rule -a Screenkey manage=off
 bspc rule -a Plank manage=off border=off locked=on focus=off follow=off layer=above
 bspc rule -a Rofi state=floating
 bspc rule -a GLava state=floating layer=below sticky=true locked=true border=off focus=off center=true follow=off rectangle=1920x1080+0+0
+
+bspc config top_padding 55
