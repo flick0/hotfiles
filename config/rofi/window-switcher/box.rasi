@@ -12,15 +12,15 @@ configuration {
 }
 
 * {
-    background: #1A1B26;
+    background: #191724;
     background-alt: argb:00202124;
     background-bar: #C0CAF5;
-    foreground: #c0caf5;
-    foreground-alt: #a9b1d6;
-    accent: #44475a;
-    border: #9ece6a;
-    selected: #292E42;
-    red: #db4b4b;
+    foreground: #e0def4;
+    foreground-alt: #908caa;
+    accent: #ebbcba;
+    border: #ebbcba;
+    selected: #1f1d2e;
+    red: #eb6f92;
 }
 
 window {

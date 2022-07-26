@@ -1,17 +1,17 @@
 if status is-interactive
     # Commands to run in interactive sessions can go here
 end
-# TokyoNight Color Palette
-set -l foreground c0caf5
-set -l selection 33467C
-set -l comment 565f89
-set -l red f7768e
-set -l orange ff9e64
-set -l yellow e0af68
+# RosePine Color Palette
+set -l foreground e0def4
+set -l selectio  c4a7e7
+set -l comment 908caa
+set -l red eb6f92
+set -l orange f6c177
+set -l yellow ebbcba
 set -l green 9ece6a
-set -l purple 9d7cd8
-set -l cyan 7dcfff
-set -l pink bb9af7
+set -l purple c4a7e7
+set -l cyan 9ccfd8
+set -l pink ecaff2
     
 # Syntax Highlighting Colors
 set -g fish_color_normal $foreground

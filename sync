@@ -1,0 +1,17 @@
+#!/usr/bin/bash
+rsync -a -r /home/hp/.config/bspwm/ config/bspwm
+rsync -a -r /home/hp/.config/cava/ config/cava
+rsync -a -r /home/hp/.config/dunst/ config/dunst
+rsync -a -r /home/hp/.config/eww/ config/eww
+rsync -a -r /home/hp/.config/jgmenu/ config/jgmenu
+rsync -a -r /home/hp/.config/polybar/ config/polybar
+rsync -a -r /home/hp/.config/sxhkd/ config/sxhkd
+rsync -a -r /home/hp/.config/zathura/ config/zathura
+rsync -a -r /home/hp/.config/fish/ config/fish
+rsync -a -r /home/hp/.config/gtk-3.0/ config/gtk-3.0
+rsync -a -r /home/hp/.config/gtk-4.0/ config/gtk-4.0
+rsync -a -r /home/hp/.config/neofetch/ config/neofetch
+rsync -a -r /home/hp/.config/rofi/ config/rofi
+rsync -a /home/hp/.config/picom.conf config/
+rsync -a /usr/bin/color-picker usr/
+rsync -a -r /home/hp/Documents/fonts/ ./fonts
