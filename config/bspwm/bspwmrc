@@ -1,16 +1,15 @@
 #! /bin/sh
 
 sleep 10 && $HOME/.config/bspwm/scripts/bspfloat floating 5 &> $HOME/.log.bspfloat.txt &
-polybar &
+/home/hp/.config/polybar/launch.sh &
 pgrep -x sxhkd > /dev/null || sxhkd &
 eww daemon &
-$HOME/.config/conky/Auva/start.sh &
 /usr/lib/mate-polkit/polkit-mate-authentication-agent-1 &
 xfce4-power-manager &
 bash $HOME/.config/bspwm/scripts/fix-plank
 xsetroot -cursor_name left_ptr &
 picom &
-feh --bg-fill ~/.wallpapers/tokyo.png
+nitrogen --restore
 ukui-window-switch &
 parcellite &
 plank &
